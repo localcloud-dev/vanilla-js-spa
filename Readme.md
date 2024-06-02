@@ -32,7 +32,7 @@ git clone https://github.com/localcloud-dev/vanilla-js-spa.git
 cd vanilla-js-spa
 http-server  --proxy http://localhost:8080?
 ```
-We use "--proxy http://localhost:8080?" to redirect all requests to http://localhost:8080/* to the home page (index.html in our case) to enable full client-side routing. It means that all pages (localhost:8080/blog, localhost:8080/page1, etc.) are be handled by main.js.
+We use "--proxy http://localhost:8080?" to redirect all requests to http://localhost:8080/* to the home page (index.html in our case) to enable full client-side routing. It means that all pages (localhost:8080/blog, localhost:8080/page1, etc.) are handled by main.js.
 
 - Open it in your browser at http://localhost:8080
 
